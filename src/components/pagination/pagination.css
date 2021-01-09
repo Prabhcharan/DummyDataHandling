@@ -1,0 +1,35 @@
+.pagination_container {
+  display: flex;
+  margin: 0 100px;
+  justify-content: center;
+}
+
+.pagination_container button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-width: 0;
+  cursor: pointer;
+}
+.pagination_container p.shift {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.pagination_container button.active:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagination_container button.disable {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+.pagination_container button:focus {
+  outline-width: 0;
+}

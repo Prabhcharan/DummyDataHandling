@@ -1,0 +1,33 @@
+.login_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.login_container .right {
+  background-color: rgba(0, 81, 255, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container .left {
+  display: grid;
+  grid-gap: 50px;
+}
+
+.login_container .left span {
+  color: rgba(0, 81, 255, 0.733);
+}
+
+.login_container .left h1 {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.login_container .left .login {
+  display: flex;
+  justify-self: center;
+  align-self: flex-start;
+}

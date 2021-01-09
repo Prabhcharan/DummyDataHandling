@@ -1,0 +1,75 @@
+.dashboard_container {
+  margin: 100px;
+}
+.dashboard_container .profile img {
+  border-radius: 50%;
+  height: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.dashboard_container .profile {
+  display: grid;
+  grid-template-columns: auto 9fr;
+  grid-gap: 10px;
+}
+
+.dashboard_container .button {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 500px;
+}
+.dashboard_container button {
+  cursor: pointer;
+}
+.dashboard_container button:focus {
+  outline-width: 0;
+}
+.dashboard_container button:hover {
+  opacity: 0.71;
+}
+
+.dashboard_container button.view {
+  background-color: rgb(4, 148, 124);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.dashboard_container button.add {
+  background-color: rgb(4, 148, 124);
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.dashboard_container button.logout {
+  background-color: red;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0;
+  color: white;
+  transition: transform 300ms ease-in-out;
+}
+.dashboard_container button.logout:hover {
+  transform: scale(1.05);
+}
+
+.dashboard_container button.logout i {
+  margin-left: 5px;
+}
